@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+#navbar #div1 ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow:1px 1px 5px red;
+}
+#navbar #div2 ul li a{
+    text-decoration: none;
+    color: rgb(245, 29, 227);
+    text-shadow:1px 1px 0px rgb(255, 255, 255);
+    font-style: italic;
+}
+#navbar div{
+    display: inline-block;
+}
+#div1 ul li{
+    display: inline-block; 
+    padding-right: 10px; 
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#div2 ul li {
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: 0px;
+    position: relative;
+    left:970px;
+}
+#navbar{
+    background-color: rgb(155, 155, 155);
+    overflow: hidden;
+}
+#navbar img{
+    float: left;
+}
+/* end of navbar*/
+/* start of header*/
+#header{
+    background-image: url(../IMG_20210704_140210_842.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div3 h1{
+    margin-left: 50px;
+    padding-top: 350px;
+    color: rgb(155, 155, 155);
+    font-weight: bold;
+    text-shadow: 3px 0px 0px black;
+    font-family: 'Libre Baskerville', serif;
+}
+#div3 button{
+    border:2px solid black;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 9px;
+    width: 120px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 130px;
+    background-color: rgb(241, 132, 214);
+    color: yellow;
+}
+/* end of header*/
+/* start of footer*/
+#footer{
+    background-color: blanchedalmond;
+    padding-bottom: 40px;
+}
+#footer h1{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+    word-spacing: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-shadow: 2px 0px 0px black;
+    color: rgb(155, 155, 155);
+}
+table{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+}
+img{
+width: 90px;
+height: 100px;
+}
+thead{
+    color:rgb(110, 110, 110);
+    height: 50px;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(155, 155, 155);
+    color: black;
+}
+tbody tr{
+    color: rgb(110, 110, 110);
+}
+/* end of footer*/
+/* start of end*/
+#div5 h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+/* end of end*/
